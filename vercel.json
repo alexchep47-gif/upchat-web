@@ -1,6 +1,11 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "rewrites": [
+    { "source": "/", "destination": "/app/index.html" },
+    { "source": "/app", "destination": "/app/index.html" },
+    { "source": "/app/", "destination": "/app/index.html" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
