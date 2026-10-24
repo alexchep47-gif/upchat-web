@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UpChat — Messagerie 100 % offline</title>
+  <meta name="description" content="UpChat : messagerie P2P sans internet via Bluetooth et WiFi Direct. Créé par NEMMEGNE CHEPING ALEXANDRE MERVIN, Cameroun." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">💬</span>
+        Up<span>Chat</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Fonctionnalités</a></li>
+        <li><a href="#modules">Modules</a></li>
+        <li><a href="#download">Télécharger</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="badge">100 % offline · Bluetooth + WiFi Direct</span>
+        <h1>Messagerie sans internet,<br /><span>partout au Cameroun</span></h1>
+        <p class="hero-sub">
+          UpChat permet de discuter, envoyer des photos et des stories entre téléphones proches —
+          même sans réseau mobile ni Wi‑Fi. Idéal pour les campus, villages, festivals et urgences.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#download">Télécharger l'APK</a>
+          <a class="btn btn-ghost" href="https://github.com/alexchep47-gif/upchat" target="_blank" rel="noopener">Code source</a>
+        </div>
+      </div>
+      <div class="phone-mockup">
+        <div class="phone-screen">
+          <div class="app-header">UpChat</div>
+          <div class="app-modules">
+            <div class="mini-card" style="--c:#25D366">💬 Messages offline</div>
+            <div class="mini-card" style="--c:#128C7E">📡 Découverte proche</div>
+            <div class="mini-card" style="--c:#075E54">📷 Médias & stories</div>
+            <div class="mini-card" style="--c:#34B7F1">🔗 Mode mesh</div>
+            <div class="mini-card" style="--c:#53BDEB">🌐 Mode internet optionnel</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" id="features">
+    <div class="container">
+      <h2 class="section-title">Pourquoi UpChat ?</h2>
+      <p class="section-sub">Conçu pour les zones où le réseau est faible ou absent</p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📵</div>
+          <h3>Zéro internet requis</h3>
+          <p>Bluetooth et WiFi Direct : discussion locale sans aucune connexion data.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Chiffrement local</h3>
+          <p>Messages stockés uniquement sur ton téléphone, chiffrés avec Hive + AES.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📸</div>
+          <h3>Médias & stories</h3>
+          <p>Photos, vidéos, stories 24 h diffusées aux contacts à portée.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔁</div>
+          <h3>Mode mesh</h3>
+          <p>Les messages peuvent être relayés par des téléphones intermédiaires.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="modules">
+    <div class="container">
+      <h2 class="section-title">Fonctionnalités</h2>
+      <p class="section-sub">Clique sur une carte pour en savoir plus</p>
+      <div class="modules-grid" id="modulesGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="download">
+    <div class="container">
+      <div class="download-box">
+        <h2>Télécharger UpChat</h2>
+        <p>APK Android compilé automatiquement via GitHub Actions</p>
+        <div class="download-actions">
+          <a class="btn btn-primary" href="https://github.com/alexchep47-gif/upchat/actions" target="_blank" rel="noopener">
+            Récupérer l'APK (Actions)
+          </a>
+          <a class="btn btn-ghost" href="https://github.com/alexchep47-gif/upchat" target="_blank" rel="noopener">
+            Voir le dépôt
+          </a>
+        </div>
+        <ol class="download-steps">
+          <li>Ouvre le dépôt GitHub <strong>upchat</strong></li>
+          <li>Onglet <strong>Actions</strong> → dernier workflow réussi</li>
+          <li>Télécharge l'artefact <strong>upchat-apk</strong></li>
+          <li>Installe sur Android (Google Play Services requis)</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <h2 class="section-title">Questions fréquentes</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Ça marche sans internet ?</summary>
+          <p>Oui. Le mode principal est 100 % offline via Bluetooth et WiFi Direct. Le mode internet est optionnel (Réglages).</p>
+        </details>
+        <details class="faq-item">
+          <summary>Quelle est la portée ?</summary>
+          <p>Quelques dizaines de mètres (radio Bluetooth / WiFi). Une portée de centaines de km nécessite le mode internet et un réseau.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Android et iPhone peuvent-ils communiquer ?</summary>
+          <p>En offline pur, non (APIs différentes). Avec le mode internet optionnel + serveur de signalisation, oui.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Qui a créé UpChat ?</summary>
+          <p><strong>NEMMEGNE CHEPING ALEXANDRE MERVIN</strong> — Nationalité camerounaise.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong>UpChat</strong> — Créé par NEMMEGNE CHEPING ALEXANDRE MERVIN</p>
+      <p>Nationalité : Camerounaise</p>
+      <p class="footer-links" style="margin-top:12px">
+        <a href="https://github.com/alexchep47-gif/upchat" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <div class="modal" id="moduleModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Fermer">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
