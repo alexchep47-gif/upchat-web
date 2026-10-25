@@ -28988,7 +28988,7 @@ var $async$hr=A.x(function(a,b){if(a===1)return A.t(b,r)
 while(true)switch(s){case 0:j=t.z
 i=$.dI
 s=2
-return A.o($.a2D().auF("settings",j),$async$hr)
+return A.o($.a2D().auF("settings_web",j),$async$hr)
 case 2:i.b=b
 q=A.aL($.dI.a_().bg(0,"encryption_key"))
 s=q==null?3:4
@@ -29004,33 +29004,33 @@ case 4:B.eo.cm(q)
 m=$.a2D()
 i=$.bv
 s=6
-return A.o(m.kc("secure_settings",null,j),$async$hr)
+return A.o(m.kc("secure_settings_web",null,j),$async$hr)
 case 6:i.b=b
 s=7
 return A.o(A.RA(),$async$hr)
 case 7:i=$.aYy
 s=8
-return A.o(m.kc("users",null,j),$async$hr)
+return A.o(m.kc("users_web",null,j),$async$hr)
 case 8:i.b=b
 i=$.l_
 s=9
-return A.o(m.kc("conversations",null,j),$async$hr)
+return A.o(m.kc("conversations_web",null,j),$async$hr)
 case 9:i.b=b
 i=$.cP
 s=10
-return A.o(m.kc("messages",null,j),$async$hr)
+return A.o(m.kc("messages_web",null,j),$async$hr)
 case 10:i.b=b
 i=$.aLv
 s=11
-return A.o(m.kc("groups",null,j),$async$hr)
+return A.o(m.kc("groups_web",null,j),$async$hr)
 case 11:i.b=b
 i=$.fO
 s=12
-return A.o(m.kc("stories",null,j),$async$hr)
+return A.o(m.kc("stories_web",null,j),$async$hr)
 case 12:i.b=b
 i=$.wD
 s=13
-return A.o(m.kc("phone_directory",null,j),$async$hr)
+return A.o(m.kc("phone_directory_web",null,j),$async$hr)
 case 13:i.b=b
 s=$.bv.a_().bg(0,"user_id")==null?14:15
 break
