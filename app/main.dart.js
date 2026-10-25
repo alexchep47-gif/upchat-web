@@ -92215,7 +92215,7 @@ return A.v($async$yA,r)}}
 A.Lr.prototype={}
 A.abs.prototype={
 HE(a,b){var s=A.cw("/$",!0,!1)
-return A.ic(A.k7("https://upchat-signal-cmr-school.vercel.app",s,"")+a).a_8(0,b)},
+return A.ic(A.k7("https://upchat-signal.onrender.com",s,"")+a).a_8(0,b)},
 HD(a){return this.HE(a,null)},
 gug(){var s=t.N
 return A.a9(["Content-Type","application/json","Authorization","Bearer "+A.ay($.bD.a3().bl(0,"device_secret")),"X-UpChat-Client","1.3.0"],s,s)},
