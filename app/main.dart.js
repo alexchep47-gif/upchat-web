@@ -95908,7 +95908,7 @@ case 1:return A.p(q,r)}})
 return A.q($async$zg,r)}}
 A.N5.prototype={}
 A.abe.prototype={
-fI(a){var s=0,r=A.r(t.y),q,p=2,o,n=this,m,l,k,j,i
+fI(a){var s=0,r=A.r(t.y),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$fI=A.t(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:if(n.a!=null){q=!0
 s=1
@@ -95918,12 +95918,23 @@ m=(m==null?$.r4=$.a4K():m).gX0()
 l=A.Z(m).i("al<1,iV>")
 s=A.a4(new A.al(m,A.b8S(),l),!1,l.i("az.E")).length===0?7:8
 break
-case 7:s=9
+case 7:p=10
+s=13
 return A.j(A.abG(A.aZy()),$async$fI)
-case 9:case 8:m=$.r4
-k=(m==null?$.r4=$.a4K():m).J9("[DEFAULT]")
-A.f7(k,$.uL(),!0)
-n.a=A.b_E(new A.iV(k))
+case 13:p=4
+s=12
+break
+case 10:p=9
+i=o
+throw i
+s=12
+break
+case 9:s=4
+break
+case 12:case 8:m=$.r4
+j=(m==null?$.r4=$.a4K():m).J9("[DEFAULT]")
+A.f7(j,$.uL(),!0)
+n.a=A.b_E(new A.iV(j))
 n.b=null
 q=!0
 s=1
@@ -95932,7 +95943,7 @@ p=2
 s=6
 break
 case 4:p=3
-i=o
+h=o
 n.b="La connexion \xe0 distance est momentan\xe9ment indisponible. UpChat reste utilisable hors ligne."
 q=!1
 s=1
