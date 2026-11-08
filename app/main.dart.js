@@ -33757,7 +33757,7 @@ if(s.b(q))q.content=o}p=n.document.documentElement
 if(s.b(p))p.style.backgroundColor=o
 n=n.document.body
 if(n!=null)n.style.backgroundColor=o},
-b92(){return A.aSq("AIzaSyABzrVAHIyHs5u2usw36IJ7rn9EXRI7PbE","1:451915075042:web:8638d4392781d5c4937dbb","upchat-android.firebaseapp.com",null,"G-LRSXTTBDHY","451915075042","upchat-android","upchat-android.firebasestorage.app")},
+b92(){return A.aSq("AIzaSyABzrVAHIHs5u2usw36IJ7rn9EXRI7PbE","1:451915075042:web:370d5f7d2380eb8b937dbb","upchat-android.firebaseapp.com",null,"G-VVKE83P741","451915075042","upchat-android","upchat-android.firebasestorage.app")},
 bje(a){if(isFinite(a))return A.eq(0,B.d.aF(a*1000),0)
 else if(a==1/0||a==-1/0)return B.Ld
 return null}},B={}
